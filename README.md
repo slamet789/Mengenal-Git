@@ -18,17 +18,23 @@
 
 ```git add <some-file>```
 
-```git commit```
+```git commit -m "comment"```
 
 ## Push feature branch ke remote
 
 ```git push -u origin new-feature```
 
+## Configurasikan username dan email
+
+```git config --global user.user "user"```
+
+```git config --global user.email "email"```
+
 # CONTOH KASUS
 
 ### JONO membuat fitur baru
 
-```git checkout -b jono-feature master```
+```git checkout -b jono-feature```
 
 ### Pada Branch ini Jono Meng- edit, stages dan commit
 
@@ -36,7 +42,11 @@
 
 ```git add <some-file>```
 
-```git commit```
+```git commit -m "comment"```
+
+### Jono menghubungkan file jarak jauh
+
+```git remote add origin "server_file_git"```
 
  ### Jono menge push branch barunya
 
