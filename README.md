@@ -3,7 +3,9 @@
 ## Mulai dengan Branch Master
 
 ```git checkout master```
+
 ```git fetch origin ```
+
 ```git reset --hard origin/master```
 
 ## Buat Branch Baru
@@ -13,7 +15,9 @@
 ## _Update, Add, Commit,_ dan _Push Changes_
 
 ```git status```
+
 ```git add <some-file>```
+
 ```git commit```
 
 ## Push feature branch ke remote
@@ -29,7 +33,9 @@
 ### Pada Branch ini Jono Meng- edit, stages dan commit
 
 ```git status```
+
 ```git add <some-file>```
+
 ```git commit```
 
  ### Jono menge push branch barunya
