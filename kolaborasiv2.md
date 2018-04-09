@@ -31,6 +31,7 @@ Kita lakukan inisialisasi git dan lakukan push ke branch kita, jangan ke master 
 git push origin kolaborasi
 ```
 **MERGE**
+
 Pada sisi creator, branch ini bisa kita merge ke master dengan syntax :
 
 ```
